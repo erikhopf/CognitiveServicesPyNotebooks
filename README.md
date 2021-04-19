@@ -10,6 +10,14 @@ With the exception of this README, the files included in this repository are Jup
 * For each service, you'll need to create a resource in the Azure portal. I'll include links direcly to the create blade in each notebook.
   * In most cases you'll need some combination of `key`, `region`, and/or `endpoint`. These are all available in the Azure portal, under your resource, in the *Keys and endpoints* menu.
 
-## Found something wrong?
+## Issue? Don't like something?
 
-Found a bug? Something doesn't work? Hate the code and want to make it better? Open an issue -- or even better, submit a pull request.
+Find a bug? Come across something that doesn't work? Hate the code and want to make it better? Open an issue -- or even better, submit a pull request.
+
+## List of notebooks 
+
+Each of these Jupyter notebooks is designed to have you up and running in 10 minutes or less. We get it, sometimes signing up for an account takes time, but all of the code is ready to run with minimal adjustments (adding your keys, endpoints, and regions). 
+
+* [Azure Form Recognizer - Pre-built models](https://github.com/erikhopf/CognitiveServicesPyNotebooks/blob/main/Form_Recognizer.ipynb) - Use Form Recognizer to analyze and extract data from business cards, IDs, forms and more using pre-built models from Azure. 
+* [Azure Form Recognizer - Custom models](https://github.com/erikhopf/CognitiveServicesPyNotebooks/blob/main/Form_Recognizer_Customization.ipynb) - Build a custom model with existing documents and analyze forms in under 10 minutes. 
+* [Azure Speech - Batch transcription of audio files](https://github.com/erikhopf/CognitiveServicesPyNotebooks/blob/main/Batch_Transcription.ipynb) - Use Azure Speech service to transcribe audio files stored in Azure Blob storage containers asyncrhonously.
